@@ -116,10 +116,10 @@ public class MyFirstController {
         return service.greetUser(name);
 
     }
-    @GetMapping(value="/greet/{name}")
-    public String greetUserViaPath(@PathVariable("name") String name){
-        GreetService service=new GreetService();
-        return service.greetUser(name);
-    }
+//    @GetMapping(value="/greet/{name}")
+//    public String greetUserViaPath(@PathVariable("name") String name){
+//        GreetService service=new GreetService();
+//        return service.greetUser(name);
+//    }
 
 }
