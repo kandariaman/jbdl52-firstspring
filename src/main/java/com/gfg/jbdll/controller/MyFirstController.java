@@ -105,7 +105,9 @@ public class MyFirstController {
     /**
      *Type: GET
      * Endpoint: /greet
+     * hello
      * */
+
 
     /**
      * Get via request param
